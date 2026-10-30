@@ -1,0 +1,52 @@
+name: Suggestion
+description: Suggest a new item, feature, or behaviour
+title: "[Suggestion]: "
+labels: ["suggestion"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the idea. Show Control Essentials is intended to grow with new
+        stage/show-control items, so suggestions are welcome.
+
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would you like to see?
+      description: Describe the item, feature, or change you have in mind.
+      placeholder: A DMX-to-MIDI bridge block, a cue-list item, a...
+    validations:
+      required: true
+
+  - type: textarea
+    id: use-case
+    attributes:
+      label: How would you use it?
+      description: What problem does it solve for your show or setup?
+      placeholder: I run MA3 cues from redstone and need...
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives or workarounds
+      description: Anything you currently do instead, or other approaches you considered.
+    validations:
+      required: false
+
+  - type: textarea
+    id: extra
+    attributes:
+      label: Additional context
+      description: Screenshots, references, MA3/MIDI notes, or anything else.
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checklist
+      options:
+        - label: I searched existing issues and suggestions first
+          required: true

@@ -1,0 +1,92 @@
+name: Bug report
+description: Report something that is broken in Show Control Essentials
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a bug. Please include enough detail that I can
+        reproduce it. If the game crashed, attach the crash report and `latest.log`.
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: A clear description of the bug.
+      placeholder: The MIDI Button changes colour in the GUI, but...
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: The exact steps that trigger the bug.
+      placeholder: |
+        1. Place a MIDI Interface
+        2. Right-click it
+        3. Set...
+        4. See...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behaviour
+      description: What did you expect to happen instead?
+    validations:
+      required: true
+
+  - type: input
+    id: mod-version
+    attributes:
+      label: Show Control Essentials version
+      placeholder: 0.1.0
+    validations:
+      required: true
+
+  - type: input
+    id: mc-version
+    attributes:
+      label: Minecraft / Forge version
+      placeholder: 1.20.1 / 47.4.20
+    validations:
+      required: true
+
+  - type: input
+    id: theatrical-version
+    attributes:
+      label: Theatrical / Extra Lights version
+      description: If installed, include the version shown in the mod list.
+      placeholder: Theatrical 1.0.0-alpha..., Extra Lights 1.4...
+    validations:
+      required: false
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs or crash report
+      description: Paste the relevant part of latest.log or attach a crash report.
+      render: text
+    validations:
+      required: false
+
+  - type: textarea
+    id: other-mods
+    attributes:
+      label: Other mods / additional context
+      description: Anything else that might matter, especially other show-control or MIDI mods.
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checklist
+      options:
+        - label: I am using the latest release of Show Control Essentials
+          required: true
+        - label: I searched existing issues for this problem
+          required: true

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/button_pressed",
+  "textures": {
+    "texture": "showcontrolessentials:block/midi_button_cool_white_on"
+  }
+}

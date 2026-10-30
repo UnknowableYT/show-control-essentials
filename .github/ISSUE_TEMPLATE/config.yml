@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Show Control Essentials releases
+    url: https://github.com/UnknowableYT/show-control-essentials/releases
+    about: Download the latest version before reporting a bug.

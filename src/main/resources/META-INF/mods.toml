@@ -1,0 +1,30 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="showcontrolessentials"
+version="${version}"
+displayName="Show Control Essentials"
+logoFile="logo.png"
+authors="Show Control Essentials"
+description='''
+A small show-control essentials addon for Theatrical. It adds a white redstone MIDI Interface,
+a colour-configurable MIDI Button.
+Use them to trigger cues, sequences, macros and executors in grandMA3 (or any other
+MIDI-capable show-control software) from Minecraft.
+'''
+
+[[dependencies.showcontrolessentials]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47.2.1,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.showcontrolessentials]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.21)"
+    ordering="NONE"
+    side="BOTH"

@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "showcontrolessentials:block/midi_interface"
+    },
+    "powered=true": {
+      "model": "showcontrolessentials:block/midi_interface_on"
+    }
+  }
+}

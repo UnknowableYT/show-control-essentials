@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/button_inventory",
+  "textures": {
+    "texture": "showcontrolessentials:block/midi_button_red"
+  }
+}

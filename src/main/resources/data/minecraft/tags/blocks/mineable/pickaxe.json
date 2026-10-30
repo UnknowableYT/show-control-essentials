@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "showcontrolessentials:midi_interface",
+    "showcontrolessentials:midi_button"
+  ]
+}
