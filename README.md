@@ -2,6 +2,9 @@
 
 > **Status: Alpha.** This is an early alpha build; features, IDs, and behaviour may still
 > change. Beta will be announced when it is ready.
+>
+> **Versioning:** `0.1.x-alpha.n` for alpha feature updates and `x.x.x-bugs.n` for
+> bug-fix-only builds.
 
 **Show Control Essentials** is a small Forge 1.20.1 show-control addon for Minecraft. It adds
 a **MIDI Interface** block and a pressable **MIDI Button**, both of which send configurable
@@ -40,7 +43,7 @@ idea: put it on a redstone line, configure it, done.
 ## Install
 
 1. Close Minecraft.
-2. Put `showcontrolessentials-forge-1.20.1-0.1.0.jar` in your Theatrical profile's `mods` folder.
+2. Put `showcontrolessentials-forge-1.20.1-0.1.1-alpha.1.jar` in your Theatrical profile's `mods` folder.
 3. Start the Theatrical profile with Forge 1.20.1.
 
 No dependencies other than Forge. Theatrical / Extra Lights are optional.
