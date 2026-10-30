@@ -241,5 +241,5 @@ The MIDI logic can be tested without Minecraft:
 
 ```powershell
 javac -d out src\main\java\dev\showcontrolessentials\MidiMessageType.java src\main\java\dev\showcontrolessentials\client\MidiMessages.java tools\MidiSelfTest.java
-java -cp out MidiSelfTest "MA2 LOOPMIDI"
+java -cp out MidiSelfTest "<MIDI NAME>"
 ```
