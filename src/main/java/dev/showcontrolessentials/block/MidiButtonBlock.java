@@ -3,7 +3,6 @@ package dev.showcontrolessentials.block;
 import dev.showcontrolessentials.ButtonColor;
 import dev.showcontrolessentials.menu.MidiInterfaceMenu;
 import net.minecraft.core.BlockPos;
-import net.minecraft.network.chat.Component;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.util.RandomSource;
@@ -67,7 +66,7 @@ public class MidiButtonBlock extends ButtonBlock implements EntityBlock {
                 NetworkHooks.openScreen(serverPlayer, new SimpleMenuProvider(
                                 (windowId, inventory, p) -> new MidiInterfaceMenu(windowId, inventory,
                                         buttonEntity, state.getValue(COLOR)),
-                                Component.translatable("block.midiinterface.midi_button")),
+                                state.getBlock().getName()),
                         buffer -> {
                             buffer.writeBlockPos(pos);
                             buffer.writeBoolean(true);

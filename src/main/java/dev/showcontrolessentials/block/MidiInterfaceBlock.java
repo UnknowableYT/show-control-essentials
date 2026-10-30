@@ -3,7 +3,6 @@ package dev.showcontrolessentials.block;
 import dev.showcontrolessentials.menu.MidiInterfaceMenu;
 import dev.showcontrolessentials.network.ModNetwork;
 import net.minecraft.core.BlockPos;
-import net.minecraft.network.chat.Component;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.util.RandomSource;
@@ -59,7 +58,7 @@ public class MidiInterfaceBlock extends Block implements EntityBlock {
                 && level.getBlockEntity(pos) instanceof MidiInterfaceBlockEntity interfaceEntity) {
             NetworkHooks.openScreen(serverPlayer, new SimpleMenuProvider(
                             (windowId, inventory, p) -> new MidiInterfaceMenu(windowId, inventory, interfaceEntity),
-                            Component.translatable("block.midiinterface.midi_interface")),
+                            state.getBlock().getName()),
                     buffer -> {
                         buffer.writeBlockPos(pos);
                         buffer.writeBoolean(false);
