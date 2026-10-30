@@ -1,5 +1,8 @@
 # Show Control Essentials
 
+> **Status: Alpha.** This is an early alpha build; features, IDs, and behaviour may still
+> change. Beta will be announced when it is ready.
+
 **Show Control Essentials** is a small Forge 1.20.1 show-control addon for Minecraft. It adds
 a **MIDI Interface** block and a pressable **MIDI Button**, both of which send configurable
 MIDI messages from your PC so you can fire cues, sequences, macros and executors in a
