@@ -1,7 +1,7 @@
 {
-  "block.midiinterface.midi_interface": "MIDI Interface",
-  "block.midiinterface.midi_button": "MIDI Button",
-  "itemGroup.midiinterface": "Show Control Essentials",
+  "block.showcontrolessentials.midi_interface": "MIDI Interface",
+  "block.showcontrolessentials.midi_button": "MIDI Button",
+  "itemGroup.showcontrolessentials": "Show Control Essentials",
   "midiinterface.message.note": "Note",
   "midiinterface.message.control_change": "Control Change",
   "midiinterface.message.program_change": "Program Change",

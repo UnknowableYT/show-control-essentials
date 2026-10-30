@@ -34,8 +34,7 @@ idea: put it on a redstone line, configure it, done.
 - **MIDI Button** - a vanilla-style stone button (place it on a floor, wall or ceiling) that
   sends a momentary Note On/Off (or CC pulse) when right-clicked. It comes in 16 stage
   colours; the colour row in the GUI can be clicked or scrolled.
-- Both blocks appear in the new **Show Control Essentials** creative tab and in
-  **Theatrical's** tab.
+- Both blocks appear only in the **Show Control Essentials** creative tab.
 - All block and item textures are 16x16.
 
 ## Install
@@ -64,8 +63,8 @@ Redstone     Stone Button Redstone
 Iron Ingot   Redstone     Iron Ingot
 ```
 
-Both blocks are in the new **Show Control Essentials** creative tab and at the front of
-**Theatrical's** creative tab. They are not added to the vanilla redstone tab.
+Both blocks are in the **Show Control Essentials** creative tab only. They are not added to
+Theatrical's tab or the vanilla redstone tab.
 
 ## Using the block
 
